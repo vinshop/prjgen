@@ -11,6 +11,7 @@ type ModelField struct {
 
 type Model struct {
 	Base
-	Name  string
-	Table string
+	Name   string
+	Table  string
+	Fields []ModelField
 }

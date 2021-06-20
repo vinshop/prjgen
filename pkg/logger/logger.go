@@ -26,3 +26,7 @@ func Errorw(msg string, kv ...interface{}) {
 func Infow(msg string, kv ...interface{}) {
 	sLog.Infow(msg, kv...)
 }
+
+func Info(args ...interface{}) {
+	sLog.Info(args...)
+}
